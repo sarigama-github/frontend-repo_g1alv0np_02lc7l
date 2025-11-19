@@ -1,0 +1,110 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 192 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.36.46:3000/
+3:11:17 PM [vite] Pre-transform error: Transform failed with 4 errors:
+/home/workspace/src/App.jsx:42:14: ERROR: Unexpected closing "p" tag does not match opening "n" tag
+/home/workspace/src/App.jsx:43:12: ERROR: Unexpected closing "section" tag does not match opening "p" tag
+/home/workspace/src/App.jsx:99:10: ERROR: Unexpected closing "div" tag does not match opening "section" tag
+/home/workspace/src/App.jsx:112:0: ERROR: Unexpected end of file before a closing "div" tag
+3:11:18 PM [vite] Internal server error: Transform failed with 4 errors:
+/home/workspace/src/App.jsx:42:14: ERROR: Unexpected closing "p" tag does not match opening "n" tag
+/home/workspace/src/App.jsx:43:12: ERROR: Unexpected closing "section" tag does not match opening "p" tag
+/home/workspace/src/App.jsx:99:10: ERROR: Unexpected closing "div" tag does not match opening "section" tag
+/home/workspace/src/App.jsx:112:0: ERROR: Unexpected end of file before a closing "div" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:42:14
+  
+  Unexpected closing "p" tag does not match opening "n" tag
+  40 |                (da 3 a 17, escludendo i quadrati perfetti) e viene tradizionalmente associato alla costruzione della
+  41 |                spirale che porta il suo nome.
+  42 |              </p>
+     |                ^
+  43 |            </section>
+  44 |  
+  
+  Unexpected closing "section" tag does not match opening "p" tag
+  41 |                spirale che porta il suo nome.
+  42 |              </p>
+  43 |            </section>
+     |              ^
+  44 |  
+  45 |            {/* Middle column: Come si costruisce */}
+  
+  Unexpected closing "div" tag does not match opening "section" tag
+  97 |              </div>
+  98 |            </div>
+  99 |          </div>
+     |            ^
+  100|  
+  101|          {/* Footer */}
+  
+  Unexpected end of file before a closing "div" tag
+  110|  
+  111|  export default App
+  112|  
+     |  ^
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+3:11:37 PM [vite] Internal server error: Transform failed with 4 errors:
+/home/workspace/src/App.jsx:42:14: ERROR: Unexpected closing "p" tag does not match opening "n" tag
+/home/workspace/src/App.jsx:43:12: ERROR: Unexpected closing "section" tag does not match opening "p" tag
+/home/workspace/src/App.jsx:99:10: ERROR: Unexpected closing "div" tag does not match opening "section" tag
+/home/workspace/src/App.jsx:112:0: ERROR: Unexpected end of file before a closing "div" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:42:14
+  
+  Unexpected closing "p" tag does not match opening "n" tag
+  40 |                (da 3 a 17, escludendo i quadrati perfetti) e viene tradizionalmente associato alla costruzione della
+  41 |                spirale che porta il suo nome.
+  42 |              </p>
+     |                ^
+  43 |            </section>
+  44 |  
+  
+  Unexpected closing "section" tag does not match opening "p" tag
+  41 |                spirale che porta il suo nome.
+  42 |              </p>
+  43 |            </section>
+     |              ^
+  44 |  
+  45 |            {/* Middle column: Come si costruisce */}
+  
+  Unexpected closing "div" tag does not match opening "section" tag
+  97 |              </div>
+  98 |            </div>
+  99 |          </div>
+     |            ^
+  100|  
+  101|          {/* Footer */}
+  
+  Unexpected end of file before a closing "div" tag
+  110|  
+  111|  export default App
+  112|  
+     |  ^
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
